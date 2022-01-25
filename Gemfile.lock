@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bl1ndy_palindrome (0.2.0)
+    bl1ndy_palindrome (0.3.0)
 
 GEM
   remote: https://rubygems.org/

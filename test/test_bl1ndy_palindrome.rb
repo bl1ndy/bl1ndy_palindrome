@@ -26,4 +26,9 @@ class TestBl1ndyPalindrome < Minitest::Test
   def test_numeric_palindrome
     assert 12_321.palindrome?
   end
+
+  def test_empty_string
+    refute '   '.palindrome?
+    refute ''.palindrome?
+  end
 end

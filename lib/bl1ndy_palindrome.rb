@@ -5,6 +5,8 @@ require_relative 'bl1ndy_palindrome/version'
 module Bl1ndyPalindrome
   # Returns true for a palindrome, false otherwise.
   def palindrome?
+    return false if processed_content.empty?
+
     processed_content == processed_content.reverse
   end
 
